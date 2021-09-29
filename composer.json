@@ -1,0 +1,15 @@
+{
+    "name": "htmladk/taskforce",
+    "description": "TaskForce Project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "D Kolos",
+            "email": "d.kolos.mail@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"TaskForce\\": "src/TaskForce/"}
+    },
+    "require": {}
+}

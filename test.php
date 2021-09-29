@@ -1,10 +1,14 @@
 <?php
+
+use TaskForce\Task;
+
+require_once "vendor/autoload.php";
+
 if (!(php_sapi_name() == "cli")) {
     print '<pre>';
 }
 ini_set('zend.assertions', 1);
 
-require_once 'Task.php';
 $task = new Task(5, 7);
 assert($task->getContractorId() === 5);
 assert($task->getCustomerId() === 7);
